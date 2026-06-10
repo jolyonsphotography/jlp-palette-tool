@@ -1,15 +1,16 @@
 import type { Metadata } from 'next'
-import { Alice, Quicksand } from 'next/font/google'
+import { Nunito_Sans } from 'next/font/google'
 import { config } from '@/photographer.config'
 import './globals.css'
 
-const alice = Alice({
-  weight: '400',
+const nunitoSansHeading = Nunito_Sans({
+  weight: '800', // Extra Bold
   subsets: ['latin'],
   variable: '--font-heading',
 })
 
-const quicksand = Quicksand({
+const nunitoSansBody = Nunito_Sans({
+  weight: '400', // Regular
   subsets: ['latin'],
   variable: '--font-body',
 })
@@ -22,7 +23,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${alice.variable} ${quicksand.variable} font-body bg-brand-ivory-light min-h-screen antialiased`}>
+      <body className={`${nunitoSansHeading.variable} ${nunitoSansBody.variable} font-body bg-brand-ivory-light min-h-screen antialiased`}>
         {children}
       </body>
     </html>
