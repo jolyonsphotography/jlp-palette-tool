@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-teal: #07A4AF;
+  --color-brand-brown: #6B5548;
+  --color-brand-subtleteal: #F0FAFB;
+  --color-brand-ivory: #FAF8F5;
+  --color-brand-ivory-light: #F7F3EE;
+  --color-brand-terracotta: #C97B5A;
+  --color-brand-warm-sand: #D9C2A6;
+  --color-brand-charcoal-teal: #0D5158;
+  --color-brand-sage: #A3AD8C;
+
+}
