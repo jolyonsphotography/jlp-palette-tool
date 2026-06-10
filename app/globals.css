@@ -1,14 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand-coral: #CA5E3C;
-  --color-brand-dark: #232817;
-  --color-brand-light-green: #99934F;
-  --color-brand-ivory: #EEE8E0;
-  --color-brand-ivory-light: #F7F4ED;
-  --color-brand-pink: #EABDAC;
-  --color-brand-pink-muted: #F3E1D3;
-  --color-brand-teal: #0F6668;
-  --color-brand-brown: #6D341B;
-
+  --color-brand-coral: #C97B5A;       /* terracotta — primary accent / CTA */
+  --color-brand-dark: #0D5158;        /* dark teal — headers, dark text/bg */
+  --color-brand-pink: #F0FAFB;        /* light teal — light accents on dark bg */
+  --color-brand-pink-muted: #D9C2A6;  /* warm sand — guideline panel bg */
+  --color-brand-light-green: #A3AD8C; /* sage — secondary/muted text */
+  --color-brand-ivory: #FAF8F5;       /* ivory — borders, hover bg */
+  --color-brand-ivory-light: #F7F3EE; /* light ivory — page background */
+  --color-brand-brown: #6B5548;       /* brown — body text */
+  --color-brand-teal: #07A4AF;        /* teal — kept for any other use */
 }
